@@ -9,7 +9,7 @@
   float: left;
   border-style: solid;
   border-radius: 50px;
-  border-color: #4F4F4F;
+  border-color: #4f4f4f;
 }
 .navigation-bar {
   width: 100%;
@@ -29,7 +29,7 @@
 .navigation-bar li {
   float: left;
   display: inline-block;
-  font-size: 25px;
+  font-size: 1.5em;
   font-family: 'Rubik', sans-serif;
   border-left: .5px solid #ffffff;
   border-top-left-radius: 15px;
@@ -60,22 +60,22 @@ li {
 }
 a:link, :visited {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
   display: inline-block;
 }
 a:hover {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
   display: inline-block;
-  background-color: #2848AC;
+  background-color: #2848ac;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 a:active {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
   display: inline-block;
-  background-color: #2848AC;
+  background-color: #2848ac;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -84,11 +84,12 @@ body {
   background: url("resources/images/background.svg") no-repeat center center fixed;
   background-size: cover;
   text-align: center;
+  font-family: 'Rubik', sans-serif;
+  min-width: 50%;
 }
 #main_body {
   margin-top: 100px;
   min-width: 50%;
-  /*width: 50%;*/
   text-align: center;
 }
 h1 {
@@ -100,7 +101,7 @@ h1 {
   background-color: #D02E31;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
-  width:578px;
+  width: 578px;
 }
 h3 {
   font-size: 4.5em;
@@ -115,8 +116,8 @@ h3 {
   border-bottom-width: 50px;
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
-  width:578px;
- }
+  width: 578px;
+}
 h2 {
   font-family: "Verlag A", "Verlag B", sans-serif;
   font-size: 2em;
@@ -124,7 +125,7 @@ h2 {
   color: #ffffff;
   padding: 0px 10px;
   background-color: #D02E31;
-  width:578px;
+  width: 578px;
 }
 .leFadeIn span {
   animation-name: leFadeIn
@@ -136,12 +137,12 @@ h2 {
   to {
     opacity: 1
   }
-} 
+}
 /*Background Attribution Bar*/
 .attribution {
-  position: absolute;
+  position: fixed;
   bottom: 0px;
   width: 100%;
   text-align: center;
 }
-/*Background Attribution Bar End/
+/*Background Attribution Bar End*/

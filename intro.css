@@ -9,7 +9,7 @@
   float: left;
   border-style: solid;
   border-radius: 50px;
-  border-color: #4F4F4F;
+  border-color: #4f4f4f;
 }
 .navigation-bar {
   width: 100%;
@@ -29,7 +29,7 @@
 .navigation-bar li {
   float: left;
   display: inline-block;
-  font-size: 25px;
+  font-size: 1.5em;
   font-family: 'Rubik', sans-serif;
   border-left: .5px solid #ffffff;
   border-top-left-radius: 15px;
@@ -60,39 +60,56 @@ li {
 }
 a:link, :visited {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
   display: inline-block;
 }
 a:hover {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
   display: inline-block;
-  background-color: #2848AC;
+  background-color: #2848ac;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 a:active {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
   display: inline-block;
   background-color: #2848AC;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 /*End Menu Bar*/
-
 body {
   background: url("resources/images/background.svg") no-repeat center center fixed;
   background-size: cover;
+}
+#main_body {
+  min-width: 50%;
+  font-family: 'Rubik', sans-serif;
+  margin-top: 50px;
+  text-align: center;
+  color: #000000;
+}
+h1 {
+  font-size: 2.5em;
+  margin: auto;
+  padding: 10px;
+  width: 578px;
   text-align: center;
 }
-
-
+p {
+  font-size: 1.5em;
+  margin: auto;
+  padding: 10px;
+  width: 578px;
+  text-align: center;
+}
 /*Background Attribution Bar*/
 .attribution {
-  position: absolute;
+  position: fixed;
   bottom: 0px;
   width: 100%;
   text-align: center;
 }
-/*Background Attribution Bar End/
+/*Background Attribution Bar End*/
