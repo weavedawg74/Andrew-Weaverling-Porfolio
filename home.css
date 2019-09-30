@@ -127,17 +127,6 @@ h2 {
   background-color: #D02E31;
   width: 578px;
 }
-.leFadeIn span {
-  animation-name: leFadeIn
-}
-@keyframes leFadeIn {
-  from {
-    opacity: 0
-  }
-  to {
-    opacity: 1
-  }
-}
 /*Background Attribution Bar*/
 .attribution {
   position: fixed;

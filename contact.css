@@ -92,6 +92,9 @@ form {
   padding: 1em;
   border: 1px solid #000000;
   border-radius: 1em;
+  -webkit-box-shadow: 4px 10px 31px 16px rgba(0,0,0,0.5);
+  -moz-box-shadow: 4px 10px 31px 16px rgba(0,0,0,0.5);
+  box-shadow: 4px 10px 31px 16px rgba(0,0,0,0.5);
 }
 form div + div {
   margin-top: 1em;
@@ -132,27 +135,24 @@ button {
      between the labels and their text fields */
   margin-left: .5em;
 }
-
 #social {
-	width:100%;
-	min-width: 620px;
-	position: fixed;
-	margin: auto;
-	text-align: center;
-	display: inline-block;
-	bottom: 50px;
+  width: 100%;
+  min-width: 620px;
+  position: fixed;
+  margin: auto;
+  text-align: center;
+  display: inline-block;
+  bottom: 50px;
 }
-
 #social img:hover {
-    -moz-transform: translate(5px, 5px);
-    -ms-transform: translate(5px, 5px);
-    -o-transform: translate(5px, 5px);
-    -webkit-transform: translate(5px, 5px);
-    transform: translate(5px, 5px)
+  -moz-transform: translate(5px, 5px);
+  -ms-transform: translate(5px, 5px);
+  -o-transform: translate(5px, 5px);
+  -webkit-transform: translate(5px, 5px);
+  transform: translate(5px, 5px)
 }
-
 #social a:hover {
-	background-color: transparent;
+  background-color: transparent;
 }
 /*Background Attribution Bar*/
 .attribution {
