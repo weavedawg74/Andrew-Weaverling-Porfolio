@@ -88,21 +88,20 @@ body {
   min-width: 50%;
 }
 
-#guess-a-number {
+#guess-a-number, #dragon-realm, #jokes, #sparc {
   width:50%;
   float: left;	
   text-align: center;	
-}
-#dragon-realm {
-  width:50%;
-  float: left;
-  text-align: center;	
+  margin-bottom: 2em; 	
 }
 h1 {
   margin-top: 1em;	
 }
 p {
   margin-top: 1em;
+}
+img {
+  border-radius: 1em;
 }
 iframe {
   border-radius: 1em;

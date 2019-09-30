@@ -1,0 +1,37 @@
+var str = '';
+var isInTag = false;
+for ( let i = 0; i < text.length; ++i ) {
+    if ( text[i] === '<' ) {
+       isInTag = true;
+    } else if ( text[i] === '>' ) {
+       isInTag = false;
+       str += text[i];
+       continue;
+    }
+
+    if ( isInTag ) {
+        str += text[i];
+    } else {
+        str += '<span>' + text[i] + '</span>';
+    }
+}
+document.body.innerHTML = str; 
+
+
+
+
+var str = '';
+var isInTag = false;
+for ( let i = 0; i < text.length; ++i ) {
+    if ( text[i] === '<' ) {
+       str += '<br>';
+       i += 3;
+    } else {
+       str += '<span>' + text[i] + '</span>';
+    }
+}
+document.body.innerHTML = str; 
+
+
+
+
