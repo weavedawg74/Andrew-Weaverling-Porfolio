@@ -83,7 +83,6 @@ a:active {
 body {
   background: url("resources/images/background.svg") no-repeat center center fixed;
   background-size: cover;
-  text-align: center;
   font-family: 'Rubik', sans-serif;
   min-width: 50%;
 }
@@ -126,6 +125,40 @@ h2 {
   padding: 0px 10px;
   background-color: #D02E31;
   width: 578px;
+}
+#intro {
+  min-width: 50%;
+  font-family: 'Rubik', sans-serif;
+  margin-top: 50px;
+  text-align: center;
+  color: #000000;
+}
+p {
+  font-size: 1.5em;
+  margin: auto;
+  padding: 10px;
+  width: 578px;
+  text-align: center;
+  background-color: rgba(255,255,255,0.60);	
+}
+#social {
+  width: 100%;
+  min-width: 620px;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  display: inline-block;
+  bottom: 10px;
+}
+#social img:hover {
+  -moz-transform: translate(5px, 5px);
+  -ms-transform: translate(5px, 5px);
+  -o-transform: translate(5px, 5px);
+  -webkit-transform: translate(5px, 5px);
+  transform: translate(5px, 5px)
+}
+#social a:hover {
+  background-color: transparent;
 }
 /*Background Attribution Bar*/
 .attribution {

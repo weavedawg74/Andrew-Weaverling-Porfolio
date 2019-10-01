@@ -81,7 +81,25 @@ a:active {
 body {
   background: url("resources/images/background.svg") no-repeat center center fixed;
   background-size: cover;
+}
+#social {
+  width: 100%;
+  min-width: 620px;
+  position: relative;
+  margin: auto;
   text-align: center;
+  display: inline-block;
+  bottom: 10px;
+}
+#social img:hover {
+  -moz-transform: translate(5px, 5px);
+  -ms-transform: translate(5px, 5px);
+  -o-transform: translate(5px, 5px);
+  -webkit-transform: translate(5px, 5px);
+  transform: translate(5px, 5px)
+}
+#social a:hover {
+  background-color: transparent;
 }
 /*Background Attribution Bar*/
 .attribution {

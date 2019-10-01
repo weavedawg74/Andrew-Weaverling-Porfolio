@@ -138,11 +138,11 @@ button {
 #social {
   width: 100%;
   min-width: 620px;
-  position: fixed;
+  position: relative;
   margin: auto;
   text-align: center;
   display: inline-block;
-  bottom: 50px;
+  bottom: 10px;
 }
 #social img:hover {
   -moz-transform: translate(5px, 5px);

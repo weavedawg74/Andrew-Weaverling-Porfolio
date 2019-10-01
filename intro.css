@@ -84,14 +84,14 @@ body {
   background: url("resources/images/background.svg") no-repeat center center fixed;
   background-size: cover;
 }
-#main_body {
+#intro {
   min-width: 50%;
   font-family: 'Rubik', sans-serif;
   margin-top: 50px;
   text-align: center;
   color: #000000;
 }
-h1 {
+h4 {
   font-size: 2.5em;
   margin: auto;
   padding: 10px;
@@ -104,6 +104,7 @@ p {
   padding: 10px;
   width: 578px;
   text-align: center;
+  background-color: rgba(255,255,255,0.60);	
 }
 /*Background Attribution Bar*/
 .attribution {
